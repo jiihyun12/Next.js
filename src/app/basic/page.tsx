@@ -1,9 +1,8 @@
+export default function Page() {
 
-export default function page() {
-
-    return (
-        <div>
-            <p>Hello, App Routing!</p>
-        </div>
-    );
+  return (
+    <div>
+      <p className="font-dahyun underline font-thin">Hello, App Routing!😘</p>
+    </div>
+  );
 }

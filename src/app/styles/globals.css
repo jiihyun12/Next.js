@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+/* 글로벌 스타일 */
+@theme {
+  --font-pretendard : 'Pretendard', sans-serif;
+  --font-dahyun: 'Dahyun', sans-serif;
+
+  --color-primary : #305CDE;
+  /* 원하는 서브컬러 등록 */
+  --color-sub : #305CDE;
+
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  
+  @keyframes wiggle {
+    0% {}
+    50% {
+      transform : rotate(3deg)
+    }
+    100% {
+      transform : rotate(-3deg)
+    }
+  }
+
+}
